@@ -15,7 +15,7 @@ app.use(cors());
 
 app.use('/products', postRoutes);
 
-const CONNECTION_URL = 'mongodb+srv://mullonkal123:allen@cluster0.l3sie.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+const CONNECTION_URL = 'mongodb cluster link here';
 const PORT  = process.env.PORT||5010;
 
 mongoose.connect(CONNECTION_URL, {useNewUrlParser: true,useUnifiedTopology: true})
